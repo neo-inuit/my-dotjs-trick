@@ -8,10 +8,10 @@ $('.jumbotron').css({
 
 // a script to check all boxes in a page checkAll()
 
-function checkAll()
+/*function checkAll()
 {
      cbs = document.getElementsByTagName('input');for(var i=0; i < cbs.length; i++){if(cbs[i].type == 'checkbox'){cbs[i].checked = true;}};
-}
+}*/
 
 //$('head').prepend('<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"><script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>');
 
@@ -22,4 +22,4 @@ function checkAll()
 
 //$('.nav').css({"list-style": "none", "float": "right"});
 
-$('body').append('<button onclick="CheckAll()">Check All</button>');
+//$('body').append('<button onclick="CheckAll()">Check All</button>');
