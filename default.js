@@ -15,7 +15,7 @@ $('.jumbotron').css({
 
 //$('.nav').css({"list-style": "none", "float": "right"});
 
-$('footer').append('<button onclick="CheckAll()">Check All</button');
+$('body').append('<button onclick="CheckAll()">Check All</button>');
 
 // a script to check all boxes in a page checkAll()
 
